@@ -1,1 +1,9 @@
 ckpts.zip
+ckpts
+pc_batch_test
+pc_folder_test
+pc_generation
+pc_test
+results
+scene_test
+**/__pycache__**

@@ -20,7 +20,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if __name__ == "__main__":
 
     dir_prefix = "./"
-    file_list = open(dir_prefix + "demo_list.txt", "r")
+    file_list = open("demo_list.txt", "r")
     files = file_list.readlines()
     output_path = dir_prefix + "results"
 
@@ -55,9 +55,9 @@ if __name__ == "__main__":
             os.makedirs(output_path)
 
         for idx, file in enumerate(files):
-
+            print(file)
             raw_img = np.transpose(
-                cv2.imread(dir_prefix + file[:-1], -1)[:, :, :3], (2, 0, 1)
+                cv2.imread(file[:-1], -1)[:, :, :3], (2, 0, 1)
             )
             input_image = torch.from_numpy(raw_img).float().to(device)
             input_image = (input_image / 255.0).unsqueeze(0)

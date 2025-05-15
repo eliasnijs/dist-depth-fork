@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dist-depth-fork
+Version: 0.1.0
+Summary: Monocular depth estimation for indoor scenes
+Classifier: Private :: Do Not Upload
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: augly>=1.0.0
+Requires-Dist: imageio>=2.35.1
+Requires-Dist: matplotlib>=3.7.5
+Requires-Dist: open3d>=0.19.0
+Requires-Dist: opencv-python>=4.11.0.86
+Requires-Dist: pillow>=10.4.0
+Requires-Dist: tensorboardx>=2.6.2.2
+Requires-Dist: torch==2.2
+Requires-Dist: torchvision>=0.17.0
+Requires-Dist: tqdm>=4.67.1
+
+
+# DistDepth Fork
+
+This is a fork of the
+[DistDepth](https://github.com/facebookresearch/DistDepth) repo by Meta. Installation
+instructions and additional info can be found [here](docs/README.md), the original README.
+
+| | |
+|-|-|
+|Original Authors:|<a href="https://choyingw.github.io/">Cho-Ying Wu</a>, <a href="https://sites.google.com/view/jialiangwang/home">Jialiang Wang</a>, <a href="https://www.linkedin.com/in/michaelanthonyhall/">Michael Hall</a>, <a href="https://cgit.usc.edu/contact/ulrich-neumann/">Ulrich Neumann</a>, <a href="https://shuochsu.github.io/">Shuochen Su</a>|
+|Find the paper:|[<a href="https://arxiv.org/abs/2112.02306">arXiv</a>] [<a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wu_Toward_Practical_Monocular_Indoor_Depth_Estimation_CVPR_2022_paper.html">CVF open access</a>] [<a href="https://distdepth.github.io/">project site: data, supplementary</a>]|
+
+
+
+
+
+
